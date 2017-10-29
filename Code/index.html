@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+            <script src="controller.js"></script>
+		
+			<!--Let browser know website is optimized for mobile-->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+
+		form {
+		margin-left: 20px;
+		margin-right: 20px;
+		border: 3px solid #f1f1f1;
+		}
+
+		/* Full-width inputs */
+		input[type=text], input[type=password] {
+		width: 80%;
+		padding: 12px 20px;
+		vertical-align: inherit;
+		margin: 20px 10px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		}
+
+		/* Set a style for all buttons */
+		button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 87%;
+		}
+
+		/* Add a hover effect for buttons */
+		button:hover {
+		opacity: 0.8;
+		}
+
+		
+		</style>
+    </head>
+    <body ng-app="mainApp">
+    
+        <div ng-view></div>
+    </body>
+</html>
